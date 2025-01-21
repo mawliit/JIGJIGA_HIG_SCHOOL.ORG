@@ -1,22 +1,4 @@
-<?php
-session_start();
 
-if(isset($_POST['login'])) {
-    // Database connection (replace with your actual credentials)
-    $servername = "localhost"; // Or "127.0.0.1"
-$username = "root"; // Default XAMPP username
-$password = ""; // Default XAMPP password
-$dbname = "project1";
-
-// Create connection
-$conn = new mysqli("localhost",  " root", "", "project1");
-
-    header("Location: index.php"); 
-
-
-
-}
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -105,11 +87,9 @@ $conn = new mysqli("localhost",  " root", "", "project1");
 
         <section><img src="mawliit.jpeg" alt="mawliit mahamed abdo 0318/15" width="300" height="300" >
             <h1>databes Video</h1>
+            <p> this database video there are four steps becouse i cannot upload fille larger then 25 MB this is free domain</p>
 
   <video width="320" height="240" controls>
-    <source src="mawliit1.mp4" type="video/mp4">
-  </video>
-            <video width="320" height="240" controls>
     <source src="mawliit1.mp4" type="video/mp4">
   </video>
             <video width="320" height="240" controls>
@@ -117,6 +97,9 @@ $conn = new mysqli("localhost",  " root", "", "project1");
   </video>
             <video width="320" height="240" controls>
     <source src="mawliit3.mp4" type="video/mp4">
+  </video>
+            <video width="320" height="240" controls>
+    <source src="mawliit4.mp4" type="video/mp4">
   </video>
     </section>
     </section>
